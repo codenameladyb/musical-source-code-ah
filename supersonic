@@ -1,0 +1,68 @@
+#supersonic, a song written on the sonic pi
+#written by codename lady b
+#checkout my blog for future new releases and general posts codenameladyb.blogger.com
+#this code will be available on github shortly on a CC BY-SA 4.0 international
+#the human readable page for this Creative Commons licence is located at https://creativecommons.org/licenses/by-sa/4.0/
+#the mp3 version of this code will be found on soundcloud.... link to come
+#thank you to Mynah Marie from earth to abigal for being a code wrangler aka beta tester and critic
+#check out her website at www.earthtoabigail.com
+#i used very basic commands for the most part and found code snippets i liked and played around with them.
+#I dont know if taking code snippets
+#and tweaking them is frowned Upon but in order for me to learn how to use this program i had to play and tinker with code.
+#if this makes me a thief so be it -- i will stop rambling now <3 lady B
+########################################################################################################
+
+live_loop :guit do
+  sample :guit_em9, rate: 0.5
+  play :Es
+  sleep 1
+end
+2.times do
+  live_loop :guit do
+    sample :guit_harmonics, rate: 0.5, amp: 1, rate: 1
+    play :fs
+    sleep 1
+  end
+  live_loop :fibble do
+    sample :bd_ada, amp: 3, rate: 1
+    play :C
+    sleep 2
+    play :G
+    sleep 1
+  end
+  live_loop :fibble do
+    sample :ambi_drone, rate: 0.9, amp: 1, rate: 1
+    play :Ds
+    sleep 2
+    play :As
+    sleep 1
+  end
+  live_loop :fibble do
+    play :Cs
+    sleep 2
+    play :G
+    sleep 1
+  end
+  2.times do
+    live_loop :nimi do
+      play (scale :C5, :major, num_octaves: 2).tick
+      sleep 2
+    end
+    2.times do
+      live_loop :fibble do
+        play :Gs
+        sleep 1
+      end
+      6.times do
+        live_loop :fibble do
+          with_fx :whammy do
+            play :Bs
+            sleep 2
+            play :D
+            sleep 2
+          end
+        end
+      end
+    end
+  end
+end
