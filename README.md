@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
+## Welcome to codename: lady b on Github!
+Here you will find the code behind all my music. 
+I write my music in a program called Sonic Pi, it is writte by Sam Aaron and was originally designed to help kids learn about coding though the medium of coding music. yet this program as evolved to allow anyone to learn to code music and perform it to other people (this is called live coding)
 
-You can use the [editor on GitHub](https://github.com/codenameladyb/musical-source-code-ah/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## ALL OF MY CODE AND MP3's are under a Creative Commons Attribution - Share Alike international 4.0 licence
+CLICK HERE TO READ THE HUMAN READABLE PAGE FOR THE LICENCE In question
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/codenameladyb/musical-source-code-ah/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
